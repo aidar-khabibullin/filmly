@@ -33,11 +33,16 @@ module.exports = defineConfig([
           style: 'kebab-case',
         },
       ],
+      semi: ['error', 'always'],
     },
   },
   {
     files: ['**/*.html'],
-    extends: [angular.configs.templateRecommended, angular.configs.templateAccessibility, prettier],
+    extends: [
+      angular.configs.templateRecommended,
+      angular.configs.templateAccessibility,
+      prettier,
+    ],
     rules: {},
   },
 ]);
