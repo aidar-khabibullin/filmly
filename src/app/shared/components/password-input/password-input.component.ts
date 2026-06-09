@@ -18,7 +18,7 @@ export class PasswordInputComponent {
   buttonIcon = EPasswordInputIcons.Closed;
 
   @Input() iconUrl: string | null = null;
-  @Input() type: 'text' | 'password' = 'text';
+  @Input() type: 'text' | 'password' = 'password';
   @Input() placeholder = '';
   @Input() disabled = false;
   @Input() value = '';
