@@ -1,0 +1,41 @@
+.layout {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.layout__page {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:
+    url(/images/auth-background.jpg) no-repeat,
+    #010101;
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__heading {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.login__form {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__form--control {
+  width: 450px;
+}

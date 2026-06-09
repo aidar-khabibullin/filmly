@@ -1,0 +1,28 @@
+.form__button {
+  border-radius: 8px;
+  background-color: #d89c00;
+  color: #fff;
+  padding: 16px 45px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    91.33deg,
+    rgba(255, 255, 255, 0.08) 1.08%,
+    rgba(255, 255, 255, 0.04) 48.1%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+}
+
+.form__button:hover {
+  opacity: 0.8;
+}
+
+.form__button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
